@@ -6,7 +6,7 @@ This is a minimal prototype of a billing support chatbot for Perplexity scenario
 
 It combines:
 
-* A real AI model (OpenAI API) for natural conversation
+* OpenAI gpt 4.1 chat completions API for natural conversation
 * A deterministic decision engine for escalation logic
 * A scenario simulation layer (no real account access)
 
