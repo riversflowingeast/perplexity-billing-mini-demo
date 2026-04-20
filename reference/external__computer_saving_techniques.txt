@@ -1,0 +1,141 @@
+Why Credits ‘‘Disappear’’
+
+Vague Prompts
+The multi-model, multi-agent nature of Computer means it tries to handle everything. If we ask for “research this,” “build something cool,” or “make this better,” we are basically paying for the tool to guess.
+
+Being specific about what we want helps save both compute and credits. It’s true for all agentic technologies, not only Computer.
+
+Vague prompts are a very expensive habit.
+
+Looping
+Letting Computer run unattended works well for tasks it has already mastered.
+
+For new tasks, especially analysis or code-heavy ones, it’s risky.
+I recommend watching it in action and stepping in as soon as you see it struggling.
+
+Failed runs can keep consuming credits on a loop, without clear failure signals.
+
+One thing Perplexity does well is show credit consumption as you work. It doesn’t explicitly say “this task cost X,” but you can watch the counter move and infer it.
+
+
+For example, generating ALT text for a small image cost 31 credits.
+
+That sent me down a rabbit hole.
+
+I analyzed my chat history against credits spent and ran a calibration experiment to turn scattered cost anecdotes into a rough model of my workflows.
+
+First, I designed a few calibration prompts to test the cost of different tasks.
+
+💡A calibration prompt is a deliberate test prompt used to understand how an AI system behaves under specific conditions. Its goal is not to complete a real task, but to measure how the system responds, such as how much it costs, how long it takes, how much context it uses, or how reliably it performs.
+
+Quick reference: In my testing, simple tasks cost under 40 credits, research-heavy tasks cost 50-70 credits, and reusable automations cost 100+ credits.
+
+Here’s a table of the calibration prompts and results so you can repeat the experiment yourself:
+
+Task: Baseline Task (simple prompt)
+    Calibration Prompt: Summarize the main features of Perplexity Computer in 5 bullet points.
+    What it Tests: Minimum cost of a simple request
+    Result: 37 credits
+
+Task: Research Task
+    Calibration Prompt: Research the current landscape of AI coding assistants and list the five most important competitors, with a short explanation of each.
+    What it Tests: Cost of research and browsing
+    Result: 61 credits
+
+Task: Builder Task (product ideation)
+    Calibration Prompt: Outline a SaaS product idea for an AI-powered meeting assistant. Include the target customer, core features, and a simple pricing model.
+    What it Tests: Cost of structured reasoning and product ideation
+    Result: 44 credits
+
+Perplexity Computer credit cost benchmarks showing 37 credits for a simple summary, 61 for a research task with browsing, and 44 for a product ideation prompt.
+
+Even in this small sample, research-heavy prompts are noticeably more expensive than generation or structured ideation tasks.
+
+
+The Compound Context Tax Is the Biggest Credit Drain in 2026
+Every message in a thread makes the next message more expensive.
+
+This is the compound context tax.
+
+When we send message number 50 in a thread, the model re-reads the entire conversation history before generating a response. Message 50 carries the weight of all 49 messages before it, even if those messages have nothing to do with our current request.
+
+Running an SEO audit at message 5 in a clean thread might cost 40 credits. Running the same audit at message 50, inside a long writing thread, can cost 200 to 320 credits.
+
+Same output, same quality. Five to eight times the price. A bit like ordering water at an airport.
+
+This applies to any agentic AI system that bills by token volume or context length. Whether running on Perplexity Computer at $200/month, Claude Cowork with its token-based pricing, or OpenClaw with API credits, the economics are identical: shorter contexts cost less.
+
+I mapped an approximate cost multiplier:
+The compound context tax in Perplexity Computer means each message in a thread costs more than the last, because the model re-reads the full conversation history every time. This applies to any agentic AI system that bills by token volume or context length.
+
+Table showing the compound context tax in Perplexity Computer: per-message cost grows from 1× baseline at messages 1–5 to 6–8× or higher after message 50, because the model re-reads the entire conversation history with each turn. Applies to any agentic AI system billing by token volume.
+Table with 2 columns and 5 rows. (column headers with buttons are sortable)
+Thread position	Approximate cost multiplier
+Messages 1–5	1x (baseline)
+Messages 6–15	1.5–2x
+Messages 16–30	2–4x
+Messages 31–50	4–6x
+Messages 50+	6–8x or higher
+
+
+These are approximations based on my own tracking.
+
+Your numbers will vary by task complexity.
+
+But the pattern is consistent: long threads are expensive threads.
+
+The fix is simple: keep threads short.
+
+Section divider
+The Fresh Thread Rule For Perplexity Computer
+Note: If you haven’t yet, read why it often pays to start with Perplexity Research, not Computer, for automated workflows.
+
+Any task that takes an input and produces an output should run in a clean thread. Period.
+
+This applies to every analysis tool, content generator, or structured output workflow we use, such as competitive intelligence scans, content analysis, summarization, SEO audits or content repurposing pipelines.
+
+They’re all fresh-thread candidates.
+
+If the task is self-contained, it does not belong inside an existing conversation.
+
+The key habit is saving your work to a file before switching contexts.
+
+The fresh thread rule for Perplexity Computer is the single lowest-effort, highest-impact credit-saving technique available in 2026.
+
+Same task, fresh thread, 80% fewer credits.
+
+Infographic comparing AI credit costs: running SEO analysis in the same thread after 40 messages costs 250+ credits because the model re-reads all context, while saving the draft to a file and using a fresh thread costs only 40-60 credits. Visual shows 40 grey message blocks plus one orange request block versus just two green blocks (file and instruction). Horizontal comparison bars reinforce the 80% cost difference. By Product with Attitude.
+
+Same task, fresh thread, 80% fewer credits.
+Help me spread the word. Share this post with 3 friends or colleagues and you’ll get a free month of Premium access.
+
+Share
+
+The Two-Thread Pattern For Creative Workflows
+Some tasks need both strategy and execution:
+
+The strategy phase is where AI earns its credits. It analyzes content, proposes options, makes judgment calls.
+
+The execution phase is mechanical. It renders the thing the strategy phase designed.
+
+What I learned the hard way is that combining both in one thread is wasteful. The execution phase carries the full context of the strategy phase, even though it does not need it.
+
+Thread 1 (strategy): Analyze a blog post. Propose three visual types for branded infographics. Recommend placement, data points, and layout. Save the complete spec to a file.
+
+Thread 2 (execution): Open a fresh thread. Load the spec file. Render the infographics from the spec. No analysis. No decisions. Just production.
+
+The strategy thread might run 8 to 12 messages and cost 150 credits. That is worth it. The execution thread runs 3 to 5 messages from a clean start and costs 50 credits. Total: 200 credits.
+
+Compare that to running both phases in one thread: 15 to 20 messages, with execution carrying the full strategy context. Easily 350 to 500 credits.
+
+The two-thread pattern for agentic AI splits strategy work from execution work into separate threads, cutting costs by 40-50% on creative workflows.
+
+This pattern works for any workflow where planning and production are distinct phases. Content calendars. Email sequences. Landing page design
+
+Summary:
+
+Perplexity credits are primarily consumed by the Computer feature, so the most effective way to save money is to be intentional about when you use it. Regular “Ask” mode is free and sufficient for most basic tasks like quick questions, summaries, or light research. A good strategy is to use Ask mode first to explore a topic, refine your thinking, and outline your request, then switch to Computer only when you truly need multi-step execution, automation, coding, or file generation. Being specific in your prompts is critical—vague instructions can cause the system to perform extra steps and consume more credits, while clear, structured prompts help limit unnecessary processing.
+
+It’s also important to avoid excessive back-and-forth within a single Computer session, as each follow-up can increase compute usage. Instead, try to bundle your instructions into one well-thought-out prompt. When working on larger tasks, break them into a small number of logical stages—such as research, execution, and refinement—without over-fragmenting the work, which can introduce repeated overhead. Keep an eye on long-running tasks, since Computer can sometimes loop or over-process, leading to unexpectedly high credit usage. If something seems off, it’s better to stop the task early.
+
+Another key tip is to avoid using Computer for simple formatting or editing tasks, since these can be handled more efficiently with standard chat tools. Monitoring your credit usage per thread can help you identify patterns and adjust your approach over time. Setting a monthly spending cap or auto-refill limit is also a smart safeguard against unexpected charges. As a general rule, reserve Computer for tasks that are complex, multi-step, or would take significant time to complete manually, and rely on simpler tools for everything else.

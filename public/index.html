@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Perplexity Billing Support Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+    }
+
+    #chat {
+      border: 1px solid #ccc;
+      padding: 12px;
+      height: 320px;
+      overflow-y: auto;
+      margin-bottom: 10px;
+    }
+
+    .msg-user {
+      text-align: right;
+      margin: 6px 0;
+    }
+
+    .msg-bot {
+      text-align: left;
+      margin: 6px 0;
+    }
+
+    .msg-meta {
+      font-size: 12px;
+      color: #888;
+      margin: 4px 0;
+    }
+
+    #contextBox {
+      background: #f5f5f5;
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    button {
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Perplexity Billing Support Demo</h2>
+
+  <!-- Scenario Selection -->
+  <div id="scenarioSelect">
+    <h4>Select Scenario</h4>
+    <select id="scenario">
+      <option value="pro_computer_drain_first_time">
+        Pro Individual – Computer Usage Drain (First-time)
+      </option>
+      <option value="pro_computer_drain_repeat">
+        Pro Individual – Computer Usage Drain (Repeat Use)
+      </option>
+      <option value="enterprise_prospect">
+        Enterprise – New Prospect Inquiry
+      </option>
+      <option value="enterprise_admin_billing_capabilities">
+        Enterprise – Admin Billing Settings
+        </option>
+    </select>
+
+    <button onclick="startChat()">Start</button>
+  </div>
+
+  <!-- Scenario Context -->
+  <div id="contextBox" style="display:none;"></div>
+
+  <!-- Chat -->
+  <div id="chat"></div>
+
+  <input id="input" placeholder="Type message..." />
+  <button onclick="send()">Send</button>
+  <br/>
+  <button onclick="resetDemo()">Restart Demo</button>
+
+  <script>
+    let scenarioId = null;
+    let sessionId = Math.random().toString(36).substring(2);
+
+    function startChat() {
+      const select = document.getElementById("scenario");
+      scenarioId = select.value;
+
+      document.getElementById("scenarioSelect").style.display = "none";
+
+      const contextMap = {
+        pro_computer_drain_first_time: "Pro Individual • Computer • First-time usage",
+        pro_computer_drain_repeat: "Pro Individual • Computer • Repeat usage",
+        pro_standard_usage_question: "Pro Individual • General usage",
+        billing_error_charge: "Billing issue • Unexpected charge",
+        enterprise_contract: "Enterprise account • Contract/billing",
+        enterprise_prospect: "Enterprise prospect • Lead qualification flow",
+        enterprise_admin_billing_capabilities: "Enterprise admin • Billing controls & feature limitations"
+      };
+
+      const box = document.getElementById("contextBox");
+      box.style.display = "block";
+      box.innerText = "Context: " + contextMap[scenarioId];
+    }
+
+    async function send() {
+      const input = document.getElementById("input");
+      const chat = document.getElementById("chat");
+
+      const message = input.value;
+      if (!message || !scenarioId) return;
+
+      chat.innerHTML += `<div class="msg-user">${message}</div>`;
+      input.value = "";
+
+      const res = await fetch("/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          message,
+          scenarioId,
+          sessionId
+        })
+      });
+
+      const data = await res.json();
+
+      chat.innerHTML += `<div class="msg-bot">${data.reply}</div>`;
+
+      if (data.featureRequestLogged) {
+        chat.innerHTML += `<div class="msg-meta">[Feature request logged]</div>`;
+        }
+
+      // 🔴 Show escalation reason (demo clarity)
+      if (data.escalate) {
+        chat.innerHTML += `<div class="msg-meta">[Escalation: ${data.reason}]</div>`;
+
+        // 🔒 Disable input after demo ends
+        input.disabled = true;
+        input.placeholder = "Demo ended";
+      }
+
+      chat.scrollTop = chat.scrollHeight;
+    }
+
+    function resetDemo() {
+      sessionId = Math.random().toString(36).substring(2);
+      scenarioId = null;
+
+      document.getElementById("chat").innerHTML = "";
+      document.getElementById("input").disabled = false;
+      document.getElementById("input").placeholder = "Type message...";
+      document.getElementById("contextBox").style.display = "none";
+      document.getElementById("scenarioSelect").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>

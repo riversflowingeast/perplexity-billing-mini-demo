@@ -1,0 +1,49 @@
+How to Manage Enterprise Billing
+Manage your Enterprise subscription and retrieve invoices
+
+
+Perplexity Enterprise uses a flexible, user-based pricing model designed to scale with teams of all sizes, so you only pay for the number of members on your team.
+
+ 
+
+To learn more about the different pricing and payment options, and other billing questions, visit this article.
+
+ 
+
+Managing billing
+Admins can manage organization billing by:
+
+Going to your Organization settings
+
+Go to Billing
+
+Click on Manage billing
+
+There, as an admin or billing admin, you will be able to update and cancel your Enterprise subscription, update your payment method and billing information, and view your invoice history.
+
+ 
+
+Accessing your invoices
+Only an admin or billing admin can request invoices or send billing inquiries by emailing support@perplexity.ai
+
+ 
+
+Adding and removing seats
+During your first month of subscription, you’ll be charged for the number of seats you selected during onboarding. Because there’s a 30‑day seat commitment period, any seat removals will only show up in your billing after the first month.
+
+ 
+
+Once that first month is over, admins can easily add or remove members from the organization. You can learn more about managing users here.
+
+ 
+
+When you add a user, a prorated charge is applied based on the time left until your plan renews. Removing a user creates a prorated credit, which gets applied to your next renewal.
+
+ 
+
+To make sure your credits are applied correctly, it’s best to remove users first and then add new ones.
+
+ 
+
+White Glove Invoicing
+For larger organization (250+ users), white glove invoicing support is available. Get in touch for more details.

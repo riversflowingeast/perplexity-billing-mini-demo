@@ -1,0 +1,147 @@
+How Credits Work for Enterprise organizations — Admin Guide
+Learn how to fund, allocate, and control Enterprise credits, including org pools, auto-reload, and usage limits for your team
+
+
+Credits power premium features like Computer and other frontier capabilities that expand your team's potential. As an admin, you have full control over how credits are funded, allocated, and consumed across your organization.
+
+ 
+
+Enterprise Pro users receive a monthly allocation of 500 credits, and Enterprise Max users receive 15,000 monthly credits. These credits expire if unused and do not roll over.
+
+Credit pricing, task credit ranges, and included monthly allowances are subject to change and may vary by region, or plan.
+
+How Enterprise Credits Work
+Enterprise credits flow through two pools:
+
+ 
+
+1. Individual Allocation
+Each seat in your organization receives a monthly credit allocation as part of their subscription. Users who join mid-cycle receive a prorated allocation.
+
+ 
+
+Credits refresh monthly based on your organization's billing cycle date. Unused individual credits expire at the end of each monthly cycle and do not roll over.
+
+ 
+
+2. Organization Pool (Shared Credits)
+The organization pool is a shared credit reserve funded and managed by admins.
+
+Credits in the organization pool are:
+
+Accessed by members only after they exhaust their individual allocation.
+
+Subject to organization-level controls — you set usage limits per seat tier and per user.
+
+Credits are consumed in the following order: promotional credits (if available), monthly seat allocation, and then organization credits up to the member’s usage limit.
+
+Credits in the organization pool will expire after 12 months of organization-wide inactivity.
+
+What Are Credits Used For?
+Credits are consumed when members use Computer (Perplexity's agent that completes complex, multi-step tasks).
+
+ 
+
+Standard searches in Perplexity Ask do not use credits.
+
+For full details on how members can use credits, see: How Credits Work for Enterprise — Member Guide.
+
+ 
+
+Admin Controls
+First-Time Setup
+To set up credits for the first time:
+
+Navigate to Organization settings > Organization credits in the Perplexity Enterprise admin panel.
+
+Click Add Credits.
+
+Review and accept the usage-based billing terms and conditions (required for first-time setup).
+
+Complete checkout. For most organizations, the existing payment method is pre-loaded and can be modified if needed.
+
+Review and set seat usage limits for your organization.
+
+Viewing Balances & Usage
+Admins can navigate to Organization Settings > Organization credits to view:
+
+Per-user allocations — Credits granted, used, and remaining for each member.
+
+Organization pool balance — Current balance, usage this period, and reset date.
+
+
+ 
+
+ 
+
+Funding the Organization Pool
+Currently, we support credit auto-reload (subject to a configurable monthly reload limit).
+
+Admins can control how much each seat tier can draw from the organization pool.
+
+When a user reaches their maximum monthly allocation, they are notified and can request additional credits from you.
+
+Members will draw from the organization pool in increments of 1000, up to their usage limit.
+
+Admins can adjust maximum monthly allocations at any time.
+
+Setting Seat Usage Limits
+
+Go to Organization settings > Organization credits > Additional seat usage limits, then click the pencil button (Edit) next to the seat tier you want to edit.
+
+
+ 
+
+There, you can set the default credit usage for each seat tier in your organization. 
+
+Organization Transfers
+If a user leaves an organization, they will lose access to their individual credit pool. Credits do not transfer if a user moves between organizations.
+
+Frequently Asked Questions
+When do monthly credits refresh?
+Monthly credits refresh based on your organization's billing cycle date. For example, if your organization's Perplexity Enterprise plan starts on the 15th of the month, credits will refresh on the 15th of each month.
+
+ 
+
+Do unused monthly credit grants carry over?
+No. Unused monthly credits expire at the end of each billing period.
+
+ 
+
+Do organization credits expire?
+Organization credits expire after 12 months of org-wide inactivity.
+
+ 
+
+Are credits refundable?
+No. Credits are non-refundable, cannot be redeemed for cash, transferred, or sold. Credits can only be used for eligible Perplexity features.
+
+ 
+
+What happens if auto-reload fails?
+You will receive an email notification. Most likely you need to update your payment method. Active tasks for users drawing from the org pool will pause until the pool is funded.
+
+ 
+
+Can I re-allocate credits from one user to another?
+No. Re-allocating credits from one user to another is not possible.
+
+ 
+
+What is the current pricing of credits?
+$1 / 100 credits.
+
+ 
+
+What does a negative balance on an organization member’s account or task in Computer mean?
+A negative balance means the task required more credits than were available in the member’s account.
+
+ 
+
+How do I fix or clear a negative balance?
+As an admin, you can clear members’ negative balances by funding the organization pool and/or increasing the seat usage limits for the seat tier of the affected members.
+
+ 
+
+Will I be charged automatically to cover a negative balance?
+We may invoice the organization for any negative balances accrued by organization members at the end of the billing period. Individual members are never invoiced.

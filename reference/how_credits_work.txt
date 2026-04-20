@@ -1,0 +1,227 @@
+How Credits Work on Perplexity
+
+Credits are used in our newest premium product, Computer on Perplexity. Subscriptions will include a monthly credit allowance, with additional credits available to purchase as needed.
+
+ 
+
+Credit pricing, task credit ranges, and included monthly allowances are subject to change, and may vary by promotion, region, or plan. We will update this page or your account settings if pricing changes.
+
+Who gets credits?
+All Perplexity subscribers receive credits as part of their subscription. Each plan includes a monthly credit allowance, with additional credits available to purchase as needed.
+
+Plan
+
+Monthly credits
+
+Max (consumer)
+
+10,000
+
+Enterprise Pro
+
+500
+
+Enterprise Max
+
+15,000
+
+ 
+Learn more about using credits with Perplexity Enterprise: How Credits Work for Enterprise organizations — Member Guide.
+
+What are credits used for?
+Credits are consumed when you use premium features that require significant compute, such as:
+
+Computer — Perplexity's browser agent that completes complex, multi-step tasks on your behalf.
+
+Additional premium features — New capabilities will use credits as they launch
+
+Other features — Perplexity Ask and Perplexity Deep Research searches are not affected by credits.
+
+Pricing, Renewals, and Purchases
+The specific number of credits consumed depends on the complexity and resources required for each task.
+
+ 
+
+You can check exact credits used for any thread via the overflow menu (three dots in the upper right corner) or at perplexity.ai/account/usage.
+
+ 
+
+We may modify credit pricing, usage limits, and auto‑refill thresholds from time to time. Any changes will apply prospectively and will be communicated through the product or your account settings.
+
+When do credits reset?
+There are three types of credits: Monthly credits, Purchased credits, and Bonus credits.
+
+Monthly credits (displayed as “Plan” credits)
+
+Monthly credits refresh on your subscription billing cycle date. For monthly subscriptions, this is the same date each month. For annual subscriptions, your credits still refresh monthly on the same date you originally subscribed. Unused monthly credits do not roll over month to month.
+
+Purchased credits
+
+Purchased credits remain in your account until used or expire after 1 year of inactivity for usage based features.
+
+Bonus Credits
+
+Bonus credits are granted at Perplexity's sole discretion and expire at the respective date given when granted.
+
+Note: Bonus credits are consumed first. If no bonus credits are available, monthly credits are consumed before purchased credits.
+
+ 
+
+Credits are non-refundable, redeemable for cash, cannot be transferred, or sold. Credits cannot be used to pay for any products or services other than eligible Perplexity features and carry no value outside this platform.
+
+What happens when I run out of credits?
+Active tasks pause — In-progress Computer threads will be paused, not cancelled. Your progress is saved and the task will resume exactly where it left off once credits are available.
+
+New tasks are blocked — You won't be able to start new credit-consuming tasks until credits are available.
+
+Tasks resume automatically — Once you add credits or your monthly allowance resets, paused tasks pick back up on their own.
+
+With auto-refill enabled, your account is topped up before you hit zero, so tasks continue without interruption.
+
+Purchases
+Auto-refill
+Auto-refill automatically purchases credits when your balance drops below the plan specific threshold (500 credits for Pro, 2,500 credits for Max), so your tasks are never interrupted. When auto-refill kicks in, you're paying for additional usage as you go — your credits are not like a gift card balance or pre-paid card.
+
+To enable it:
+
+1. Open your account’s Credits page.
+
+2. Toggle on the Auto-refill option.
+
+3. Configure the following settings:
+
+    Refill Amount: The number of credits purchased each time auto-refill triggers.
+
+    Monthly Spending Limit: The maximum amount auto-refill can charge in a month (default is $200, adjustable up to $2,000).
+
+4. Save your changes.
+
+
+ 
+
+Note: Auto-refill is off by default. You will never be charged for credits without opting in first.
+
+Spending limits
+Every Max account has a monthly spending cap that limits the total amount you can be charged for credits in a billing period. The default cap is $200.
+
+ 
+
+You can lower or raise this cap (up to $2,000) at any time in your credit settings. If you hit your spending cap:
+
+Active tasks will pause
+
+You'll see a notification with the option to increase your limit
+
+No additional charges will be made until you update your settings
+
+The auto-refill monthly limit and the account spending cap work together — whichever is lower takes effect first.
+
+Payment method
+If you purchased your subscription through the Perplexity website and used a credit or debit card, we will default to using that same card for any additional credit purchases you opt-into.
+
+You can always switch your payment method to another credit or debit card for your credit purchases — it does not have to be the same one that you use for your subscription.
+
+If you upgraded to Max through the iOS and Android app, you’ll need to add a credit or debit card through the website to use Computer.
+
+If a payment fails, active tasks will pause and you'll receive an email. Most likely you need to update your payment method to resume. If auto-refill isn’t working, ensure your saved payment method is valid and up to date, and verify that your monthly spending limit covers the auto-refill amount.
+
+Viewing your balance and usage
+How do I check my credit balance and usage?
+Account settings — Visit perplexity.ai/account/usage to see:
+
+Your current balances of Bonus, Plan, and Purchased credits
+
+Days until your next monthly refresh
+
+Credit usage breakdown by type (text, image, video, audio) and by thread
+
+Auto-refill and spending limit settings
+
+Per-thread usage — Open the overflow menu (three dots) on any thread to see credits used.
+
+ 
+
+
+ 
+
+Important: Credits are associated with your Perplexity account, are personal to your account, and cannot be transferred or assigned to other users or accounts, with the exception of limited circumstances for enterprise accounts.
+
+What does a negative balance on my account or task in Computer mean?
+A negative balance means the task required more credits than were available in your account.
+​
+
+How do I fix or clear a negative balance? 
+You can clear your negative balance by purchasing more credits here: https://www.perplexity.ai/account/usage.
+
+ 
+
+Will I be charged automatically to cover a negative balance?
+For those with a paid monthly subscription:
+
+If you have a paid monthly subscription, your Plan credits for the next billing cycle will automatically cover any negative balance for the current task. However, this will reduce the number of credits available provided in the following month.
+
+If your negative balance reaches the system’s limit before your next renewal, you’ll need to purchase additional credits to continue completing future tasks.
+
+For those with a non-paid subscription:
+
+If Auto-Refill is enabled, your account will be automatically charged based on your selected settings, so a negative balance should not appear.
+
+If Auto-Refill is not enabled, you’ll need to purchase additional credits to complete the task.
+
+To avoid interruptions in your use of Computer, please ensure your credit balance is up to date.
+
+ 
+
+What happens if my payment method is declined? 
+If your payment method is declined, please update it on https://www.perplexity.ai/account/usage and try your credits purchase again.
+
+Email notifications
+What email notifications will I receive?
+You'll receive emails for:
+
+Credit purchase — Confirmation when auto-refill adds credits
+
+Low balance — When credits are running low (if auto-refill is off)
+
+Out of credits — When your balance hits zero and tasks are paused
+
+Spending cap reached — When you've hit your monthly limit
+
+Payment failed — When an auto-refill charge could not be processed
+
+Frequently asked questions
+Do monthly credits carry over?
+
+No. Unused monthly credits expire at the end of each billing cycle.
+
+ 
+
+Do purchased credits expire?
+
+Yes. Credits purchased through auto-refill expire one year after purchase or one year of inactivity.
+
+ 
+
+ 
+
+What happens to my credits if I cancel my subscription?
+
+All credits — both monthly and purchased — are forfeited when your subscription ends and are not refundable, except where required by law.
+
+ 
+
+Can Perplexity revoke my credits?
+
+In limited cases, such as fraud, abuse, or other violations of our Terms of Service, Perplexity may suspend your account or revoke credits. We will not revoke credits solely because you use the product heavily within our policies.
+
+ 
+
+Can I use credits on mobile?
+
+Not yet. Mobile credit support is coming in a future update.
+
+ 
+
+I was charged for credits I didn't authorize.
+
+Check your credit settings to confirm whether auto-refill is enabled. If you believe there's an error, contact our support team.

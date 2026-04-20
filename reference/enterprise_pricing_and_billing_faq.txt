@@ -1,0 +1,156 @@
+Enterprise Pricing and Billing: Frequently Asked Questions
+Get answers to the most common Pricing and Billing questions for our Enterprise plan
+
+
+Understanding your subscription
+How does Perplexity Enterprise pricing work?
+Enterprise pricing is per seat (user), and you’re only billed for your active team members, so it’s straightforward to scale as your team grows or shrinks.
+
+ 
+
+We offer two pricing tiers:
+
+Enterprise Pro: Each seat is $40 per month or $400 per year (a 20% discount versus monthly subscriptions)
+
+Enterprise Max: Each seat is $325 per month or $3,250 per year
+
+Discounts may be available for larger teams (250+ members), schools, universities, not-for-profit organizations, or government agencies.
+
+ 
+
+Which payment methods can I use?
+We accept all major credit cards (Visa, MasterCard and AMEX). Additional payment options may be available depending on your region.
+
+ 
+
+Please get in touch with us for invoice billing (annual subscriptions only).
+
+ 
+
+For larger organizations (250+ users), white glove invoicing support is available.
+
+Get in touch if you have specific needs or questions.
+
+ 
+
+Are there higher usage limits for Enterprise plans?
+Enterprise Pro offers extended usage limits compared to Perplexity Pro.
+
+ 
+
+Enterprise Max goes further, providing the highest access levels for Research and Create file and app queries, support for up to 10,000 personal files and 5,000 files per Space, and up to 15 video generations each month.
+
+ 
+
+Organizations can flexibly combine Enterprise Pro and Enterprise Max seats to meet organizational and user needs.
+
+ 
+
+Do Enterprise plans include API access and credits?
+No, API usage is not included with Enterprise Pro or Enterprise Max. Users who need API access must purchase credits or top off their balance with a valid payment method. Note that administrators cannot manage API credits for other users. API organizations (API Groups) can be set up.
+
+ 
+
+Subscribing to Perplexity Enterprise
+Can I consolidate billing in one invoice?
+Billing for Enterprise seats in a single organization is consolidated in one invoice.
+
+Please note that if you purchase Sonar API credits, these will be billed separately.
+
+ 
+
+Can I get an invoice or pay by wire transfer?
+Yes, you can pay by invoice and/or bank or wire transfer when you select this option during checkout.
+
+ 
+
+For teams of 250 or more users, get in touch for white glove support.
+
+ 
+
+Do you offer trials?
+We do not offer trials for Enterprise Pro or Enterprise Max.
+
+ 
+
+I’m based in a country where the VAT reverse charge mechanism applies. How do I include my VAT number in my invoices?
+When you create your Enterprise organization, you will have the ability to add your VAT ID to enable the VAT reverse-charge mechanism. You can also add it at any point in the Enterprise subscription portal.
+
+ 
+
+If you have received invoices without the VAT reverse charge mechanism applied, please get in touch and we’ll be able to help.
+
+ 
+
+Managing your subscription and billing
+I made an accidental purchase. Can I get a refund?
+You can find our refund policy here. If you’ve made an accidental purchase or need help understanding any charges on your account, please get in touch and we’ll be happy to help.
+
+ 
+
+How can I add or remove users?
+During your first month of subscription, you’ll be charged for the number of seats you selected during onboarding. Because there’s a 30‑day seat commitment period, any seat removals will only show up in your billing after the first month.
+
+ 
+
+Once that first month is over, admins can easily add or remove members from the organization. You can learn more about managing users here.
+
+ 
+
+When you add a user, a prorated charge is applied based on the time left until your plan renews. Removing a user creates a prorated credit, which gets applied to your next renewal.
+
+ 
+
+To make sure your credits are applied correctly, it’s best to remove users first and then add new ones.
+
+ 
+
+What happens when I add or remove users?
+When you add or remove users from your organization, these seat changes take effect immediately. The prorated amount—calculated based on the exact day the seat was added or removed—is then grouped and billed on a schedule:	
+
+Monthly subscriptions: adjustments are billed weekly
+
+Annual subscriptions: adjustments are billed monthly
+
+When the billing run occurs, you’ll receive a prorated charge or credit reflecting the remaining time in the current billing period from the day the change was made. At the next renewal, you will be charged for the total number of seats your organization has at that time.
+
+ 
+
+I have created an organization but I can’t use Enterprise features
+To activate Enterprise features, your organization’s administrator must pay for all the seats provisioned.
+
+ 
+
+If payment has been made and your organization can’t use Enterprise features, get in touch and we’ll investigate this.
+
+ 
+
+How can admins manage or review billing?
+Admins control all payments and billing for the organization. Your billing adjusts automatically if you add or remove seats. To see more details, check our article about managing pricing and billing.
+
+ 
+
+I have added or removed users, but my billing has not updated
+Invoices are scheduled to be generated weekly (for monthly subscriptions), or monthly (for annual subscriptions), so you may not receive an invoice or see changes to your organization's seat count immediately after making those changes. However, when the billing run occurs, you’ll receive a prorated charge or credit reflecting the remaining time in the current billing period from the day the change was made.
+
+ 
+
+Education & Non-profit
+Do you offer educational or non-profit discounts?
+Yes, please get in touch to request a discount code after we validate your organization’s eligibility. Required documentation may include:
+
+A certificate for non-profits
+
+Proof of administrative authority within your educational institution
+
+Note: Students cannot request this discount directly. An IT representative or department head must contact us.
+
+ 
+
+How do I claim tax-exempt status?
+To claim tax-exempt status, contact get in touch with proof of exemption, and we will send you an updated invoice reflecting this status.
+
+ 
+
+Still have questions?
+If you need help, get in touch for dedicated assistance.

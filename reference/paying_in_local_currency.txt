@@ -1,0 +1,47 @@
+Paying in Local Currency
+Info on paying for your Perplexity subscription in your local currency.
+
+
+Paying in Local Currency on Perplexity.ai
+When you subscribe via the Perplexity.ai website (desktop or mobile web), you can choose to pay in your local currency instead of U.S. dollars (USD). 
+
+ 
+
+Choosing Your Currency (Web Only)
+When creating a new subscription on Perplexity.ai:
+
+You can select either your local currency or USD at checkout.
+
+The price displayed at checkout reflects your chosen currency, and all future recurring payments for that plan will use that same currency.
+
+This currency selection applies only to subscriptions created directly on Perplexity.ai, not to in‑app purchases through Google Play or the App Store.
+
+ 
+
+
+
+​
+
+Does this apply to subscriptions made in the mobile apps?
+No. Local currency selection currently applies only to subscriptions started directly on Perplexity.ai, not to purchases made through the Google Play Store or Apple App Store.
+
+ 
+
+How are refunds handled for Perplexity.ai website subscriptions?
+Refunds are always processed in the same currency as your original transaction. If you paid in your local currency, your refund will be issued in that local currency; if you paid in USD, your refund will be in USD. You receive back the exact amount you originally paid in that currency, regardless of any exchange rate changes after your purchase.
+
+ 
+
+Can I switch currencies without canceling my current subscription?
+No. To change from USD to local currency (or vice versa) for a Perplexity.ai web subscription, you must cancel your current plan and start a new one with your desired currency.
+
+ 
+
+If you subscribed in USD on Perplexity.ai and want to switch to your local currency:
+
+Cancel your existing web subscription.
+
+After cancellation, resubscribe on Perplexity.ai and select your preferred currency at checkout.
+
+Can users in India pay in local currency on Perplexity.ai?
+Not yet. Users in India currently cannot use Indian rupees (INR) for recurring subscriptions on Perplexity.ai and can only subscribe in USD.
