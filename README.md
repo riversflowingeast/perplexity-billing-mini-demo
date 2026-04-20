@@ -17,20 +17,15 @@ The system is designed to demonstrate:
 
 ## Demo Examples 
 
-### Feature Request
 ![Feature Request](assets/screenshot1_feature_request.png)
 
-### General UI
 ![Screenshot 2](assets/screenshot2.png)
 
-### High Computer Usage Flow
 ![Step 1](assets/screenshot3_high_computer_usage_1_of_2.png)
 ![Step 2](assets/screenshot3_high_computer_usage_2_of_2.png)
 
-### Escalation Handling
 ![Escalation](assets/screenshot4_high_computer_usage_escalation.png)
 
-### Final State
 ![Final](assets/screenshot5.png)
 
 
